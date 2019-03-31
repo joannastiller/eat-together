@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eat out, don't count</title>
+    <title>Smacznego!</title>
     <link href="https://fonts.googleapis.com/css?family=Courgette|Roboto+Condensed:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <h1>Eat with your friends, don't worry about the maths</h1>
-        <h2>Add items to your list and count the cost per person</h2>
+        <h1>Zjedz ze znajomymi, matematykę zostaw nam</h1>
+        <h2>Dodaj dania do listy i wpisz liczbę osób</h2>
 
         <div class="menu">
             <div class="left-column">
                 <div class="list-of-products"></div>
-                <div class="sum"></div>
-                <input type="number" autocomplete="off" placeholder="How many of you are there?">
-                <div class="result"></div>
-                <p></p>
+                <div class="result">
+                    <p class="total">Łączny koszt: </p>
+                    <p class="sum"></p>
+                    <input type="number" autocomplete="off" placeholder="Wpisz liczbę osób">
+                    <p class="total">Koszt na osobę: </p>
+                    <p class="costpp"></p>
+                    <p></p>
+                </div>
             </div>
 
 

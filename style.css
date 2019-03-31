@@ -28,6 +28,9 @@ h2 {
     font-weight: bold;
 }
 
+
+/* Lewa kolumna */
+
 div.menu {
     display: flex;
     width: 80%;
@@ -40,6 +43,8 @@ div.left-column {
     display: flex;
     flex-direction: column;
 }
+
+/* Lista produktów - tabelka */
 
 div.list-of-products {
     padding: 10px;
@@ -60,6 +65,24 @@ button:hover {
     color: white;
 }
 
+.total,
+.sum,
+.costpp {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+
+/* Prawa kolumna */
+
 div.right-column {
     display: flex;
     flex-basis: 45%;
@@ -68,7 +91,7 @@ div.right-column {
 }
 
 div.item {
-    flex-basis: 45%;
+    flex-basis: 40%;
     margin-bottom: 5px;
     /* width: 63px;
     height: 50px; */
